@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*grijs #899CA0 */
+/*donkergroen #1C2B32*/
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: "Poppins", sans-serif;
+    color: #1C2B32;
+
+}
+
+main, header {
+    max-width: 1000px;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 68px;
+}
+
+h3 {
+    text-align: center;
+    padding: 8%;
+    font-size: 30px;
+}
+
+/*main {*/
+/*    border: 2px solid indianred;*/
+/*}*/
+
+a:hover {
+    text-decoration: none;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+header {
+    /*position: relative;*/
+    background-image: url("/assets/images/mountains.jpg");
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.small_text_header {
+    text-align: center;
+}
+
+.search_field_and_button {
+    text-align: center;
+    padding-top: 8px;
+
+}
+
+.search\" {
+    height: 50px;
+    width: 225px;
+    background: rgba(0, 0, 0, 0.0);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 15px;
+}
+
+
+
+.button_header {
+    margin-left: -5px;
+    width: 175px;
+    height: 50px;
+    background-color: #1C2B32;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+/*Onderstaand kan samengevoegd worden door andere classes te gebruiken vond het zo even makkelijker*/
+
+.jane_quote, .john_quote {
+    max-width: 100%; /* Breedte van het vlak */
+    height: 200px; /* Hoogte van het vlak */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.john_quote {
+    margin-bottom: 0;
+}
+
+.jane_text, .john_text{
+    position: absolute;
+    font-size: 14px;
+    margin-left: 140px;
+    margin-top: 50px;
+
+}
+
+.jane_avatar, .john_avatar {
+    position: absolute;
+    display: block;
+    width: 44px;
+    left: 145px;
+    top: 101px;
+    /*vertical-align: bottom;*/
+
+}
+
+.quote_icon {
+    position: absolute;
+    left: 101px;
+    top: 45px;
+    width: 25px;
+
+
+}
+
+.jane_cite, .john_cite {
+    position: absolute;
+    margin-left: 203px;
+    margin-top: 111px;
+
+}
+
+/*///////////// 3.3 Support /////////////*/
+.support_image {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+
+
+}
+
+.figcaption_text {
+    margin-top: 20px;
+}
+
+.button_contactus {
+    width: 175px;
+    height: 50px;
+    background-color: #1C2B32;
+    color: white;
+    border-radius: 25px;
+    display: block;
+    margin-top: 20px;
+
+}
+
+.team {
+    text-decoration-line: underline;
+    color: #899CA0;
+
+}
+
+
+
+/*///////////// 3.4 Faq /////////////*/
+.details_class {
+    cursor: pointer;
+    display: block;
+
+}
+
+.summary_opened {
+    color: white;
+    background-color: #899CA0;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 15px;
+}
+
+
+
+/*///////////// 3.5 Footer /////////////*/
+.copyright {
+   background-color: #1C2B32;
+    text-align: center;
+    color: white;
+    padding-block: 30px;
+}
+
